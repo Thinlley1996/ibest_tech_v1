@@ -491,8 +491,13 @@ hr {
 .about-area .about-wrapper > div {
   vertical-align: middle;
   display: table-cell;
+  padding: 20px;
+  box-shadow: 0 1px 3px #1a3e73ce, 0 1px 2px #1a3e73c5;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
-
+.about-area .about-wrapper > div:hover{
+  box-shadow: 0 14px 28px #1a3e736c, 0 10px 10px #1a3e7370;
+}
 .about-area img {
   border-radius: 4px;
 }
@@ -502,7 +507,7 @@ hr {
 }
 
 .about-area .content p {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 #cta {
